@@ -1,0 +1,30 @@
+{
+  "source_repository": "robot-data-generation",
+  "source_revision": "a90d259f0b88cc474a48f211399c92e9b2246b3c",
+  "copied_files": {
+    "src/robot_data_generation/__init__.py": "3de22a901f019dba7a8281f495360a1c93e9350b898bc1e943b8eb6f80c6d1de",
+    "src/robot_data_generation/cli.py": "8f6bb358e2f6b80488fbf81c5bfa6ed871c6749c0d0c41b98b58e8f0eafb24c0",
+    "src/robot_data_generation/evaluation_plan.py": "0de3a42ee220ec53a194a09f359246fe98772620f31f43d415176e7a1b6da426",
+    "src/robot_data_generation/generation_plan.py": "37e54efbcb795ac3271935d4037d970be2ef0aecfdaf76b914e8f28d4219a4b1",
+    "src/robot_data_generation/models.py": "357b5e1225cdca32dd47a41694b14dabe146a8d2919020e15b86fec345d19ad1",
+    "src/robot_data_generation/rigid_retarget.py": "85be12a4f11ce1577ff49fd50d0a5e5c21f1ea6eeba6a3c223062aaea450831b",
+    "src/robot_data_generation/source_episode.py": "2fbfece2e28cd6e21f25f07cd031fbf6a8b0d02269df989ded90db2dc81b8999",
+    "src/robot_data_generation/training_selection.py": "1ed1973e66bd13790dafe35a89306e6132ee11596651c97e4086fafdb849860a",
+    "src/robot_data_generation/trajectory_alignment.py": "156787e5a357d346b71b6eb9a7b75e5c0a46652bf794d14a367ac35ec15ab9e1",
+    "tests/test_evaluation_plan.py": "a5e3f21f6d5386a9a75c7922e5631deef2fe60b2415f956b83a830e12486b238",
+    "tests/test_generation_plan.py": "596c0d65a374127b5bb97170251261edd0d14bc91caf3546ff6e8e71dcd25193",
+    "tests/test_rigid_retarget.py": "525e11a23b70b8b70715c5a612f71b5a0ddebf45f4222a873600ab2784cd17cf",
+    "tests/test_source_episode.py": "0a2bb0bccdbf347fd3d821422003767c978d70a57c330982cccca8088b250a27",
+    "tests/test_training_selection.py": "ce0d5b28576fca882d314c914929eadceeb9082c8955f0fca1b89d392712ec11",
+    "tests/test_trajectory_alignment.py": "c27f9799218e068370cf41bc0ffd5a73acaf21019d47d322b739a05a4e36a768"
+  },
+  "excluded": [
+    "cloth_appearance.py",
+    "cloth_appearance_runner.py",
+    "test_cloth_appearance.py",
+    "machine-specific configs",
+    "private data and runs",
+    "historical Git history"
+  ],
+  "modifications": "Packaging and new examples/documentation only; copied core and existing tests unchanged."
+}

@@ -1,0 +1,25 @@
+{
+  "evidence_status": "SELF_REVIEWED_PROVISIONAL",
+  "raw_data_distributed": false,
+  "source_episode_count": 5,
+  "source_files_checked": 4738,
+  "source_files_changed": 0,
+  "executor_source_revision": "64f4a4c94d44324887d8a1ee2bdeb5235bf8c657",
+  "generation_source_revision": "a90d259f0b88cc474a48f211399c92e9b2246b3c",
+  "contracts_source_revision": "64f4a4c94d44324887d8a1ee2bdeb5235bf8c657",
+  "raw_report_hashes": {
+    "episode_validation.json": "5e1a37ff6f8e46d95c79aae68641eb5f3e5db47d55a35c203a4997c026af12ae",
+    "summary.json": "6e3c40c4a73e60f9ab1f39ddc232507f6d9e730c4e5633cf016d7224ef3ae8f2",
+    "source_immutability.json": "3cf9b08c4835b6a225d5d9fa0ad181a07fcd2b46d238b5002f5921a545eace11",
+    "stage-results.json": "6e44fe7b395880f675509633975b08f4412684ca848f8aeba34b0ae81b7d5c05"
+  },
+  "public_files_sha256": {
+    "REPORT.md": "48ff562f50c93ed4434319b92150caab46bed456be73069d8f77cde54d7da0d6",
+    "attempts.json": "2c80f375b196991ef0ccba68864967eb60cf20d2612cb200a675187d307403c6",
+    "randomized-failure-contact.png": "1517c54854ec27e33dde9ab491834dc11c1f4d6b7a87ae2674888439bfdab079",
+    "randomized-failure.mp4": "2faaddbd5d156e645ae432422567049647e18ef747fb893b597b47bf7ae52c90",
+    "randomized-success-contact.png": "1381f436c21236bc9ebfa544904984f8ae013ae170f6c6a7fb268233296642b0",
+    "randomized-success.mp4": "40aaf1deefb2aebda5e7ad05dbb8cd14267daa677dcd50287d6ea261d73ff579",
+    "summary.json": "c9203bb37c88768694bc3795c9497b1795cb43734ddc2230cef9fc5b254baa73"
+  }
+}

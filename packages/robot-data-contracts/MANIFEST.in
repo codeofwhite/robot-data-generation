@@ -1,0 +1,3 @@
+include README.md VALIDATION.md SOURCE_SNAPSHOT.json LICENSE NOTICE THIRD_PARTY_NOTICES.md
+recursive-include tests *.py
+recursive-include docs *.md

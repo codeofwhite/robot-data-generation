@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robot-data-generation"
+version = "0.1.0"
+license = {text = "Apache-2.0"}
+description = "Independent planning and provenance for robot demonstration augmentation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "pydantic>=2.7", "robot-data-contracts==0.2.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+robot-data-generation = "robot_data_generation.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["robot_data_generation*"]
+namespaces = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools]
+license-files = ["LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md"]

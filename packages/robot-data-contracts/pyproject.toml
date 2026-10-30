@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robot-data-contracts"
+version = "0.2.0"
+license = {text = "Apache-2.0"}
+description = "Standalone versioned robot Episode contracts, reader and writer"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pydantic>=2.7"]
+
+[project.optional-dependencies]
+images = ["Pillow>=10"]
+test = ["pytest>=8", "Pillow>=10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["robot_data_contracts*"]
+namespaces = false
+
+[tool.setuptools.data-files]
+"share/robot-data-contracts/legal" = ["LICENSE", "NOTICE", "THIRD_PARTY_NOTICES.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

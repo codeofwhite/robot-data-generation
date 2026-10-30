@@ -1,0 +1,21 @@
+{
+  "format": "robot_data_generation_config",
+  "format_version": 1,
+  "spec_id": "my_rigid_cube_lift_xy",
+  "scene_id": "rigid_cube_lift",
+  "attempts_per_source": 20,
+  "randomization_seed": 7,
+  "transition_frames": 10,
+  "object_xy": {"range_m": 0.02, "sampling": "paired_latin_hypercube"},
+  "execution": {
+    "control_hz": 20,
+    "pregrasp_position_tolerance_m": 0.003,
+    "pregrasp_rotation_tolerance_rad": 0.0872664626,
+    "pregrasp_stable_ticks": 3,
+    "pregrasp_timeout_s": 2.0,
+    "grasp_lift_threshold_m": 0.02,
+    "task_lift_threshold_m": 0.08,
+    "success_mode": "lift"
+  },
+  "sources": [{"path": "./your-episode-directory", "episode_uuid": "replace-with-your-episode-uuid"}]
+}

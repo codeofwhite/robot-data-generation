@@ -1,0 +1,18 @@
+include README.md LICENSE NOTICE THIRD_PARTY_NOTICES.md
+recursive-include docs *.md *.json
+recursive-include configs *.md *.json
+recursive-include examples *.py
+recursive-include evidence *.json *.md *.mp4 *.png
+include packages/robot-data-contracts/pyproject.toml packages/robot-data-contracts/MANIFEST.in
+include packages/robot-data-contracts/README.md packages/robot-data-contracts/VALIDATION.md
+include packages/robot-data-contracts/SOURCE_SNAPSHOT.json packages/robot-data-contracts/LICENSE
+include packages/robot-data-contracts/NOTICE packages/robot-data-contracts/THIRD_PARTY_NOTICES.md
+recursive-include packages/robot-data-contracts/src *.py
+recursive-include packages/robot-data-contracts/tests *.py
+recursive-include packages/robot-data-contracts/docs *.md
+prune packages/robot-data-contracts/build
+prune packages/robot-data-contracts/dist
+prune packages/robot-data-contracts/src/robot_data_contracts.egg-info
+prune packages/robot-data-contracts/.verification
+recursive-include tests *.py
+global-exclude __pycache__ *.py[cod]

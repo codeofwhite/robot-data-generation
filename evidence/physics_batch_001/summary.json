@@ -1,0 +1,82 @@
+{
+  "status": "BOUNDED_PHYSICS_BATCH_PASS",
+  "review": "SELF_REVIEWED_PROVISIONAL",
+  "nominal": {
+    "executed": true,
+    "requested": 5,
+    "completed": 5,
+    "successes": 5,
+    "failures": 0,
+    "gate_passed": true,
+    "failure_reasons": {}
+  },
+  "randomized": {
+    "executed": true,
+    "requested": 10,
+    "completed": 10,
+    "successes": 7,
+    "failures": 3,
+    "gate_passed": true,
+    "failure_reasons": {
+      "automatic_criterion_not_met": 1,
+      "RuntimeError: pregrasp convergence timed out before gripper close": 2
+    }
+  },
+  "unique_randomized_positions": 2,
+  "offsets_xy_m": [
+    [
+      -0.01110361494229606,
+      0.006001826973498536
+    ],
+    [
+      0.018799013080549758,
+      -0.013020398551801758
+    ]
+  ],
+  "episodes": 15,
+  "frames": 3407,
+  "decoded_jpegs": 13628,
+  "source_files_unchanged": 4738,
+  "peak_observed_gpu_mib": 6166,
+  "simulator_elapsed_s": 834.0353351607919,
+  "videos": [
+    {
+      "path": "randomized-success.mp4",
+      "attempt_id": "source-00-attempt-000",
+      "offset_xy_m": [
+        -0.01110361494229606,
+        0.006001826973498536
+      ],
+      "label": "randomized-success",
+      "frames": 183,
+      "duration_s": 18.3,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1280,
+      "height": 960,
+      "faststart": true,
+      "full_local_decode": true,
+      "app_playback_confirmed": false
+    },
+    {
+      "path": "randomized-failure.mp4",
+      "attempt_id": "source-01-attempt-001",
+      "offset_xy_m": [
+        0.018799013080549758,
+        -0.013020398551801758
+      ],
+      "label": "randomized-failure",
+      "frames": 338,
+      "duration_s": 33.8,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "width": 1280,
+      "height": 960,
+      "faststart": true,
+      "full_local_decode": true,
+      "app_playback_confirmed": false
+    }
+  ],
+  "simulation_runtime": "Isaac Sim 6.0.1 / PhysX / official IsaacLab Panda",
+  "source": "Saved native simulator execution and full CPU readback"
+}

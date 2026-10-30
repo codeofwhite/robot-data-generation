@@ -1,0 +1,41 @@
+{
+  "evidence_status": "SELF_REVIEWED_PROVISIONAL",
+  "kind": "Historical saved-report summary; not a run of this standalone candidate",
+  "task": "Isaac rigid_cube_lift",
+  "randomization": "object XY +/-0.02 m only",
+  "generated_success_criterion": "closed gripper lift >=0.08 m; hold/release are separate diagnostics",
+  "m2": {
+    "attempts": 100,
+    "succeeded": 79,
+    "failed": 21,
+    "original_report_sha256": "886262e19f5fbc3036d0ac4591d0f34c7e6cdca7b6d38ae870d8af33c4da773b"
+  },
+  "m4": {
+    "success": {
+      "total": 20,
+      "baseline_successes": 0,
+      "baseline_rate": 0.0,
+      "baseline_wilson95": [
+        0.0,
+        0.16112515805281938
+      ],
+      "augmented_successes": 1,
+      "augmented_rate": 0.05,
+      "augmented_wilson95": [
+        0.008881448800795402,
+        0.23613119344674205
+      ],
+      "delta_rate": 0.05,
+      "baseline_only": 0,
+      "augmented_only": 1,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "original_report_sha256": "136978dcf0707b695689d00d2495e8c50d6b20c0eb75fd4c4d6fb2ac4f7ac7fa"
+  },
+  "conclusion": "Generation feasibility in a narrow historical setup; no established policy improvement. Original data, weights and simulator are not distributed.",
+  "nominal": {
+    "attempts": 5,
+    "succeeded": 5,
+    "original_report_sha256": "39bf7aaa2ea98914176c1cb0826756b20ed858b77a0009d7f5eb03296c9eed51"
+  }
+}

@@ -1,0 +1,11 @@
+Robot Data Generation
+Copyright 2026 Robot Data Generation contributors.
+
+Original contributions that the contributors are authorized to license are
+provided under the Apache License, Version 2.0. See LICENSE.
+
+The bundled robot-data-contracts 0.2.0 source snapshot retains the source
+project's Apache-2.0 license and attribution notices. Its NOTICE and
+THIRD_PARTY_NOTICES.md are preserved under packages/robot-data-contracts/.
+This extraction does not relicense any external SDK, asset, model or dependency.
+See THIRD_PARTY_NOTICES.md and docs/CONTRACTS.md for scope and provenance.
